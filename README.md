@@ -4,3 +4,5 @@ El código representa un agente de patrullaje que recorre una ruta numerada del 
 
 # Agente de explorador de mapas
 El código simula a un agente que explora una cuadrícula de 5x5. Comienza en la esquina superior izquierda y se mueve de forma aleatoria, eligiendo direcciones como arriba, abajo, izquierda o derecha. Solo avanza si la nueva posición es válida y no ha sido visitada antes. A medida que explora, marca los lugares que ya ha visitado. El agente sigue moviéndose hasta que no puede avanzar más.
+
+# Agente de navegación autónoma
