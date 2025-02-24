@@ -9,3 +9,5 @@ El código simula a un agente que explora una cuadrícula de 5x5. Comienza en la
 Este código ayuda a encontrar el camino más corto dentro de un laberinto, evitando paredes y eligiendo la mejor ruta posible. Imagina que tienes un mapa con pasillos y obstáculos, donde debes moverte desde un punto de inicio hasta un destino. Para hacerlo, el programa usa una estrategia inteligente llamada A*, que prioriza los caminos más cortos y eficientes. A medida que avanza, va guardando qué pasos tomó para poder reconstruir el camino final. Si encuentra una ruta, la muestra marcando el recorrido con `*`, y si no hay forma de llegar, simplemente lo indica.
 
 # Agente de selección de rutas
+
+El código encuentra la ruta óptima en una matriz de recompensas. Primero, calcula una matriz de utilidades sumando la recompensa de cada celda con la mejor utilidad de sus vecinos. Luego, determina la mejor ruta desde la esquina superior izquierda hasta la inferior derecha, eligiendo siempre la celda con mayor utilidad. Finalmente, imprime la ruta óptima.
